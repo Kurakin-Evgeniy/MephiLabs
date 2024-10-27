@@ -1,4 +1,4 @@
-package src.main.java.org.lab1;
+package org.lab1;
 
 
 public class Lab1Application {

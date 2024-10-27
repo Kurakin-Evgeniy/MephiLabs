@@ -2,6 +2,7 @@ package org.lab2;
 
 import java.util.ArrayList;
 import java.util.List;
+
 import static org.lab2.UsersUtil.*;
 
 public class Lab2Application {
@@ -13,13 +14,13 @@ public class Lab2Application {
         showUsersSortedByLastName(users);
         System.out.println("Users sorted by age");
         showUsersSortedByAge(users);
-        System.out.println("Are all users older than 7 years: "+isAllUsersOlderThan7Years(users));
-        System.out.println("Average age: "+getAverageUsersAge(users));
+        System.out.println("Are all users older than 7 years: " + isAllUsersOlderThan7Years(users));
+        System.out.println("Average age: " + getAverageUsersAge(users));
 
-        System.out.println("List of countries: "+getUniqueCountriesList(users));
+        System.out.println("List of countries: " + getUniqueCountriesList(users));
 
     }
-    
+
     public static void addSomeUsers(List<User> users) {
         users.add(new User(
                 1,

@@ -1,4 +1,4 @@
-package src.main.java.org.lab1;
+package org.lab1;
 
 import java.util.Map;
 
